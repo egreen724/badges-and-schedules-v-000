@@ -23,5 +23,5 @@ def printer(name_array)
  assign_rooms(name_array)
 end
 
-name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+#name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 printer(name_array)
