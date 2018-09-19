@@ -24,4 +24,4 @@ def printer(name_array)
 end
 
 #name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-printer(name_array)
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
