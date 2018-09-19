@@ -19,8 +19,10 @@ end
 
 
 def printer(name_array)
- $stdout.puts batch_badge_creator(name_array)
- $stdout.puts assign_rooms(name_array)
+ name_array.each do |name|
+   batch_badge_creator(name)
+   assign_rooms(name)
+ end
 end
 
 #name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
