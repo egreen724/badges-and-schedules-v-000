@@ -12,7 +12,7 @@ end
 
 def assign_rooms(name_array)
   name_array.each_with_index do |speaker, index|
-  return new_array = ["Hello, #{speaker}! You'll be assigned to room #{index + 1}!"]
+   new_array = ["Hello, #{speaker}! You'll be assigned to room #{index + 1}!"]
 end 
 
 end
