@@ -19,7 +19,7 @@ end
 
 
 def printer(name_array)
- name_array.collect do |name|
+ name_array.loop do 
    puts batch_badge_creator(name)
    puts assign_rooms(name)
  end
