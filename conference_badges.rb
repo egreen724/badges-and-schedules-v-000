@@ -17,7 +17,7 @@ name_array.each_with_index do |speaker, index|
  return new_array
 end 
 
-end
+
 
 def printer(name_array)
   name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
