@@ -18,8 +18,10 @@ end
 
 
 
-def printer
+def printer(name_array)
   #name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
  batch_badge_creator(name_array)
  assign_rooms(name_array)
 end
+
+printer(name_array)
