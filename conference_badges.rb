@@ -26,6 +26,3 @@ def printer(name_array)
    puts name
  end 
 end
-
-#name_array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-#printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
